@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Concert One', cursive;
+    background-color: rgb(45, 195, 201);
+}
+.content{
+    width: 1000px;
+    height: 550px;
+    margin: 0 auto;
+    background-color: rgb(45, 195, 201);
+}
+#heading{
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    margin: 10px;
+    font-size: 4rem;
+    color: #33086b;
+}
+.btns{
+    display: flex;
+    margin: 0px 370px;
+}
+.Btns{
+    margin: 12px;
+    font-size: 1.3rem;
+    box-shadow: 5px 5px 10px rgb(100, 93, 88);
+}
+.boxes{
+    display: flex;
+}
+.box{
+    width: 400px;
+    height: 150px;
+    border: 2px solid black;
+    margin: 50px 57px;
+    margin-bottom: 0;
+    background-color: black;
+}
+.scores{
+    display: flex;
+}
+.score{
+    width: 400px;
+    height: 50px;
+    border: 2px solid black;
+    margin: 50px 57px;
+    margin-top: 0;
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 50px;
+    box-shadow: 1px 1px 10px rgb(77, 76, 76);
+}
+.start{
+    text-align: center;
+    margin: 35px 12px;
+    color: rgb(77, 76, 76);
+    font-size: 2rem;
+}
+#Rules{
+    color: rgb(36, 87, 107);
+}
+.buttons{
+    margin: 0 375px;
+}
+#rockIcon{
+    margin: 12px 130px;
+    color: blanchedalmond;
+}
+#paperIcon{
+    margin: 12px 130px;
+    color: blanchedalmond;
+}
+#scissorIcon{
+    margin: 12px 130px;
+    color: blanchedalmond;
+}
+#pWin{
+    text-align: center;
+    font-size: 2.2rem;
+    margin-top: 55px;
+    color: blanchedalmond;
+}
+#cWin{
+    text-align: center;
+    font-size: 2.0rem;
+    margin-top: 45px;
+    color: blanchedalmond;
+}
